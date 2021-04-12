@@ -1,0 +1,24 @@
+{
+  "name": "brevis",
+  "description": "Brevis is the API handling shortens on [t8.pm]",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaldrin/brevis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaldrin/brevis/issues"
+  },
+  "homepage": "https://github.com/thaldrin/brevis#readme"
+}
