@@ -1,7 +1,8 @@
 export type Shorten = {
     id: number
     url: string
-    slug: string
+    slug: string,
+    creator: string
 }
 
 export type Key = {
