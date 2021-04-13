@@ -3,3 +3,10 @@ export type Shorten = {
     url: string
     slug: string
 }
+
+export type Key = {
+    id: string
+    key: string
+    owner: string
+    reason: string
+}
