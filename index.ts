@@ -28,7 +28,6 @@ app.get("/:slug", async (req, res) => {
         .from<Shorten>("brevis").select().eq("slug", req.params.slug).limit(1);
 
     if (data?.length === 0) {
-        console.log("hewo");
         return res.json({
             success: false,
             msg: "The Link you are trying to visit does not exist.",
